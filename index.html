@@ -205,10 +205,18 @@
                     Below, I have linked to two dog-related SVG files from the images folder in <code>img</code> tags (you can also paste SVG code directly into your HTML). Let's adjust the styles here so that the text appears to flow around the images, with one image on each side of the container.
                 </p>
                 <img src="images/corgi.svg" alt="vector drawing of a smiling corgi's face" width="100" height="100" class="img-100" id="corgi">
+                #corgi{
+                    margin-right: 1rem;
+                    float: left;
+                }
                 <p id="puppy-p">
                     What cute puppies! We can <code>clear</code> the <code>float</code> on this paragraph. Let's use a <code>float</code> for their main purpose, which is to <code>display</code> text that wraps around an image, side-by-side.
                 </p>
                 <img src="images/dog-house.svg" alt="vector of a dog house" width="100" height="100" id="dog-house">
+              */
+                #section9{
+                    clear: both;
+                }
                 <p>
                     This is the text that we want to wrap around the dog house on the right. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
                 </p>
